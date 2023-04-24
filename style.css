@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,500;0,700;1,100;1,300;1,900&family=Tajawal:wght@300;500;800;900&display=swap');
+
+*{
+  border: none;
+  outline: none;
+  perspective: none;
+  box-sizing: border-box;
+
+}
+body{
+  font-family: 'Lato', sans-serif;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-family: 'Tajawal', sans-serif;
+  background-color: rgba(0, 0, 0, .9);
+ overflow: hidden;
+
+}
+.app {
+  padding: 20PX;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:30PX;
+  align-items: center;
+margin: 100PX auto;
+}
+
+h1{
+  color: aliceblue;
+}
+.contaier{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20PX;
+}
+input{
+  background-color: #333;
+  padding: 10PX 20PX;
+  width: 500PX;
+  font-size: 16PX;
+  color: aliceblue;
+}
+
+button{
+  padding: 6PX 12PX;
+  color: aliceblue;
+  background-color: #333;
+  cursor: pointer;
+}
+textarea{
+  background-color: #333;
+  padding: 10PX 20PX;
+  width: 600PX;
+  font-size: 16PX;
+  color:aliceblue;
+  border-radius: 3PX;
+  overflow: auto;
+}
